@@ -1,10 +1,5 @@
 
 public class SphereVolume implements ISubscriber {
-	// 20170072
-<<<<<<< HEAD
-	
-=======
->>>>>>> 20289a3ff4cf567705eef301f1f1da4ec52242d1
 	@Override
 	public void notifySubscriber(String input) {
 		// TODO Auto-generated method stub
