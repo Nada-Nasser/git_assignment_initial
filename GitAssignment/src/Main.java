@@ -7,6 +7,7 @@ public class Main {
 			new TwoPowerNSubscriber(),
 			new CircleVolume(),
 			new SphereVolume(),
+		        new SummationSeriesSubscriber(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
