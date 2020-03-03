@@ -23,6 +23,14 @@ public class Topic {
         }
     }
 
+    public void NotifyOneSubscriber(String input , int index) {
+    	try {
+        	subscribers.get(index).notifySubscriber(input);
+		} catch (Exception e) {
+			System.out.println("Invalid Method");
+		}
+    }
+    
     public static double getValue() {
         // TODO Auto-generated method stub
         return 0 ;
