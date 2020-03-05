@@ -2,11 +2,9 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			new TwoPowerNSubscriber(),
-			new CircleVolume(),
-			new SphereVolume(),
-		        new SummationSeriesSubscriber(),
-	};
+	     new fibonacci(),
+
+  };
 	public static void main(String[] args) {
 		
 		int choice = 0;
