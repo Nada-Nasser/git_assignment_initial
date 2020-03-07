@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-	    new fibonacci(),
+	    new SummationSeriesSubscriber(),
 		new CircleVolume(),
-		new Lucas_Series(),
 		new SphereVolume(),
-		new SummationSeriesSubscriber(),
-		new TwoPowerNSubscriber(),
+		new Lucas_Series(),
+		new TwoPowerNSubscriber(),	
+		new fibonacci(),
 	};
 	public static void main(String[] args) {
 		
@@ -40,11 +40,9 @@ public class Main {
 				System.out.println("1- Summation Series (0 to n).");
 				System.out.println("2- Circle volume.");
 				System.out.println("3- Sphere Volume.");
-				System.out.println("4- Sphere Circumference.");
-				System.out.println("5- Lucas Series.");
-				System.out.println("6- Sphere Area.");
-				System.out.println("7- 2 power n.");
-				System.out.println("8- Fibonacci.");
+				System.out.println("4- Lucas Series.");
+				System.out.println("5- 2 power n.");
+				System.out.println("6- Fibonacci.");
 				
 				System.out.print("\nYour Choice :- ");
 				choice = in.nextInt();
