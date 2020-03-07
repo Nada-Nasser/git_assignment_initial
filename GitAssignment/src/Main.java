@@ -7,7 +7,7 @@ public class Main {
 		new Lucas_Series(),
 		new SphereVolume(),
 		new SummationSeriesSubscriber(),
-		new TwoPowerNSubscriber()
+		new TwoPowerNSubscriber(),
 	};
 	public static void main(String[] args) {
 		
