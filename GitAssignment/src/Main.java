@@ -2,9 +2,13 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-	     new fibonacci(),
-
-  };
+	    new fibonacci(),
+		new CircleVolume(),
+		new Lucas_Series(),
+		new SphereVolume(),
+		new SummationSeriesSubscriber(),
+		new TwoPowerNSubscriber()
+	};
 	public static void main(String[] args) {
 		
 		int choice = 0;
